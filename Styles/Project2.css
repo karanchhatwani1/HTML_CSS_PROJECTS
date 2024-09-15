@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(17, 16, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.parent{
+    position: relative;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.child1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+    position: absolute;
+    top: -90px;
+    left: -65px;
+    z-index: -1;
+}
+
+.flip_card{
+    perspective: 1000px;
+}
+
+.child2, .child21{
+    width: 270px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 16px;
+    padding: 20px;
+    position: absolute;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.25);
+    backface-visibility: hidden;
+}
+
+.child21{
+    transform: rotateY(180deg);
+}
+
+.flip_card_inner{
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip_card:hover .flip_card_inner{
+    transform: rotateY(180deg);
+}
+
+.t1{
+    font-size: 7px;
+}
+
+.t2{
+    width: 311px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    margin-left: -20px;
+
+}
+
+.t3t4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    margin-top: 16px;
+}
+
+.t3{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.t4{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.t5{
+    font-size: 7px;
+    margin-top: 10px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.master_icon{
+    width: 45px;
+    height: 30px;
+}
+
+.master_font{
+    font-weight: 500;
+    font-size: 13px;
+    width: 170px;
+    margin-left: 5px;
+}
+
+.master_chip{
+    width: 36px;
+    height: 32px;
+}
+
+.card_no{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.no{
+    margin-top: 5px;
+}
+
+.validity{
+    position: relative;
+    margin-top: 20px;
+}
+
+.valid_thru{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 13px;
+}
+
+.expiry{
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+    position: absolute;
+    bottom: -275px;
+    right: -372px;
+    z-index: -1;
+}
+

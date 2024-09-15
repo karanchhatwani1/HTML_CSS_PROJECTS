@@ -1,0 +1,127 @@
+body{
+    font-family: Roboto, Arial;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.option1{
+    background-color: #1877f2;
+    padding: 8px;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.option2{
+    background-color: #1877f2;
+    padding: 8px;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    width: 90px;
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+}
+
+.social_icons{
+    width: 217px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+}
+
+.stat_icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+.sub_stat_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    margin-top: 10px;
+    border-right: 1px solid rgb(223, 223, 223);
+}
+
+.sub_stat_div_last{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    margin-top: 10px;
+}
+
+.options_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+}
+
+.child2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.child1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877f2;
+    width: 300px;
+    height: 110px;
+    position: relative;
+}
+
+.dp_img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0px;
+}
+
+.dp_div{
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877f2;
+    position: absolute;
+    bottom: -18px;
+    padding: 2px;
+}
